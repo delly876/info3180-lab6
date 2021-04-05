@@ -5,3 +5,36 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.news__list li{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: left;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border-top-color: aquamarine;
+    box-shadow: 0 4px 4px rgba(34, 34, 34, 0.2);
+    overflow: hidden;
+}
+
+.news__list img{
+    width: 280px;
+    height: auto;
+}
+
+.news__item .colored{
+    background-color: aquamarine;
+    border-top-color: aquamarine;
+}
+.news__item .head1{
+    font-weight: 600;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.news__item .desc{
+    font-size: smaller;
+}
